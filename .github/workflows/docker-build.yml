@@ -21,7 +21,8 @@ jobs:
           
       - name: Build and push Docker image
         run: |
-          docker build -t apenzijngek/week1kubernetes:latest -f week1kubernetes535961container/Dockerfile .
+          docker build -t apenzijngek/week1kubernetes:latest -f container/Dockerfile .
           docker push apenzijngek/week1kubernetes:latest
+
 
         
